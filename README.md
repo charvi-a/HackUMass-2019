@@ -1,5 +1,7 @@
 ## HackUMass-2019 
 
+I participated in a hackathon at my university (University of Massachusetts, Amherst) where I worked with a team to create this project.  
+
 ### What is a Vine?
 A vine is a short seven second looping video. 
 
@@ -12,7 +14,7 @@ With our project, the user is given a choice to press one of the three buttons, 
 ### How we built it:
 First, we got a raspberry pi in order to create a bridge from hardware to software. Then, we got some jumpers and wired the pi to the circuit. Buttons were added to the circuit along with the resistors to create an interactive piece. Afterward, we connected a speaker to the pi via an aux cord.
 
-As for the software, we flashed Raspbian onto a micro SD card and inserted it into the Raspberry Pi. We then proceeded to connect it to a monitor and then opened Mu to code out the processes of our gadget in Python. We downloaded the vine audio in wav files to implement into our code. We then coded our software. After the coding and debugging was done, we ran the software to make sure the hardware and software were working properly together.
+As for the software, we flashed Raspbian onto a micro SD card and inserted it into the Raspberry Pi. We then proceeded to connect it to a monitor and then opened Mu (Python editor and IDE) to code out the processes of our gadget in Python. We downloaded the vine audio in wav files to implement into our code. We then coded our software. After the coding and debugging was done, we ran the software to make sure the hardware and software were working properly together.
 
 ### Technologies we used:
 - Python  
