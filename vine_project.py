@@ -22,4 +22,5 @@ vineList.append(pygame.mixer.Sound("/home/pi/vine-audio-project/recordings/merry
 vineList.append(pygame.mixer.Sound("/home/pi/vine-audio-project/recordings/more_like_hurricane_tortilla_vine.wav"))
 vineList.append(pygame.mixer.Sound("/home/pi/vine-audio-project/recordings/why_you_always_lyin_vine.wav"))
 
+# randomly plays a vine from the list of vines
 Button(17).when_pressed = vineList[random.randint(0,15)].play
