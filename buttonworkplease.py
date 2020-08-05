@@ -1,7 +1,7 @@
 # Write your code here :-)
 import RPi.GPIO as GPIO
 import os
-from time import sleep     # this lets us have a time delay (see line 12)
+from time import sleep     # this lets us have a time delay
 import random
 import pygame
 
